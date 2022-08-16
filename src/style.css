@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(24, 24, 50);
+  color: white;
+  font-family: 'SST', sans-serif;
+  text-align: center;
+}
+h1 {
+  font-size: 24px;
+}
+#root {
+  padding: 20px;
+  /* border: 3px solid yellow; */
+}
+.list-users {
+  margin: 20px;
+}
+.list-user-item {
+  display: flex;
+  border: 3px solid yellow;
+  margin: 20px auto;
+  padding: 20px;
+  width: 300px;
+  align-items: center;
+  justify-content: space-between;
+}
+.list-user-item-avatar {
+  border-radius: 50%;
+  width: 100px;
+}
+.list-user-item-name {
+  width: 100%;
+}
+.list-user-item-name p{
+  margin: 2px 0;
+}
+.list-user-item-name p:first-child{
+  font-weight: bold;
+  font-size: 1.1rem;
+}
